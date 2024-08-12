@@ -16,12 +16,5 @@ public class DataSiswaRequest {
     private String kelas ;
     private List<MataPelajaranRequest> mataPelajaran;
 
-    @Override
-    public String toString() {
-        return "DataSiswaRequest{" +
-                "nama='" + nama + '\'' +
-                ", kelas='" + kelas + '\'' +
-                ", mataPelajaran=" + mataPelajaran +
-                '}';
-    }
+
 }

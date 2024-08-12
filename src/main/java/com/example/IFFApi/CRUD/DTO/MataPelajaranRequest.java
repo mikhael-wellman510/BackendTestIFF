@@ -13,12 +13,5 @@ public class MataPelajaranRequest {
     private String code ;
     private String mataPelajaran;
 
-    @Override
-    public String toString() {
-        return "MataPelajaranRequest{" +
-                "id='" + id + '\'' +
-                ", code='" + code + '\'' +
-                ", mataPelajaran='" + mataPelajaran + '\'' +
-                '}';
-    }
+
 }
